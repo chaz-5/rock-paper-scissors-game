@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors Game</title>
+    <title>Archie's Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lemon|Bebas Neue">
 </head>
 <body>
-    <script src="script.js"></script>
+    <div id="main-container">
+        <div id="title">Archie's Rock Paper Scissors</div>
 
+        <div id="botchoice-container">
+        </div>
+
+        <div id="score-cards">
+            <p id="arch-score">0 to Archie</p>
+            <p id="score">0 to Player</p>
+        </div>
+
+        <p id="round-counter">Round...</p>
+        <img id="archie-img" src="images/arch-rps2.gif" alt="picture of a brown cockapoo">
+        <div id="result-container">
+            <p id="bot-choice"></p>
+            <p id="result"></p>
+        </div>
+
+        <div id="btn-container">
+            <button class="rps-btns" id="rock">Rock</button>
+            <button class="rps-btns" id="paper">Paper</button>
+            <button class="rps-btns" id="scissors">Scissors</button>
+        </div>
+    </div>
+
+    <div id="restart-cont">
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

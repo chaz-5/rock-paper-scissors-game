@@ -1,0 +1,92 @@
+body {
+    background-color: #856e60;
+}
+
+#archie-img {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    color: #d1ae8d;
+    -webkit-text-stroke: 1px black;
+    font-size: 60px;
+    font-family: 'Lemon', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+#score-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+#arch-score,
+#score {
+    font-size: 40px;
+    margin: 0;
+}
+
+#round-counter {
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 50px;
+    margin: 0;
+}
+
+#btn-container {
+    display: block;
+    text-align: center;
+
+}
+
+button {
+    text-align: center;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    background-color: #5b453b;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+    color: #d1ae8d;
+}
+
+button:hover {
+    background-color: #533f36;
+}
+
+#scissors {
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+p {
+    font-family: 'Bebas Neue', Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#bot-choice,
+#result {
+    font-size: 40px;
+    margin: 0;
+}
+
+#result-container {
+    text-align: center;
+    height: 100px;
+}
+
+#restart-cont {
+    text-align: center;
+    padding: 250px 0;
+}
